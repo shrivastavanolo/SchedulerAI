@@ -9,6 +9,8 @@ The SchedulerAI notebook provides a Python script that utilizes the Google Calen
 **Shift Event**: Change the timing of an existing event to a new date and time.
 **Check Event**: Verify the availability of a specific time slot in your Google Calendar.
 
+SchedulerAI utilizes the Replicate library to access the **"meta/meta-llama-3-70b-instruct"** language model for natural language processing tasks. This model is specifically designed for instructive text generation and understanding.
+
 ## Prerequisites
 Before using SchedulerAI, you need to set up the Google Calendar API and obtain the necessary credentials. Here's how you can do it:
 
@@ -25,6 +27,15 @@ Before using SchedulerAI, you need to set up the Google Calendar API and obtain 
    - Click on "Create Credentials" and select "OAuth client ID".
    - Choose "Desktop app" as the application type.
    - Save the generated credentials (JSON file) to your local machine.
+  
+4. **Language Model (LLM) Used**:
+   - Sign up for an account on the Replicate platform at [https://replicate.ai/](https://replicate.ai/).
+   - Once logged in, navigate to the "Models" section and search for the "meta/meta-llama-3-70b-instruct" model.
+   - Click on the model to view details and obtain API access.
+   - Install the Replicate Python library using pip:
+   ```bash
+   pip install replicate
+   ```
 
 ## Setup
 Once you have obtained the Google Calendar API credentials, follow these steps to set up SchedulerAI:

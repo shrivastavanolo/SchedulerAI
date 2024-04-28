@@ -3,6 +3,12 @@
 ## Overview
 The SchedulerAI notebook provides a Python script that utilizes the Google Calendar API to manage events. With SchedulerAI, you can easily add, delete, shift, and check appointments in your Google Calendar, all from the convenience of the command line.
 
+## Features
+**Add Event**: Add a new event to your Google Calendar with specified details such as date, time, and event name.
+**Delete Event**: Remove an existing event from your Google Calendar based on the date and time.
+**Shift Event**: Change the timing of an existing event to a new date and time.
+**Check Event**: Verify the availability of a specific time slot in your Google Calendar.
+
 ## Prerequisites
 Before using SchedulerAI, you need to set up the Google Calendar API and obtain the necessary credentials. Here's how you can do it:
 
